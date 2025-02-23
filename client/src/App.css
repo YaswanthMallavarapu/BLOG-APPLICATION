@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(103, 132, 178);
+}
+main div {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  width: 50%;
+  justify-content: left;
+}
+main div div {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+  font-size: 15px;
+  align-items: center;
+}
+main div div a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #1b1818;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.blogs {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.posts {
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+}
+input {
+  height: 25px;
+  border-radius: 10px;
+  padding-left: 5px;
+  background-color: rgb(249, 247, 247);
+}
+button {
+  width: 50%;
+  height: 20px;
+  margin: 0px auto;
+  color: blue transparent;
+  border-radius: 10px;
+  height: 30px;
+}
+label {
+  margin: 0;
+}
+.post {
+  padding: 20px;
+}

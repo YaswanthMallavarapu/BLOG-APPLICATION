@@ -1,0 +1,14 @@
+img {
+  width: 100%;
+}
+
+.post {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 1rem;
+}
+
+.post-text {
+  display: flex;
+  flex-direction: column;
+}
